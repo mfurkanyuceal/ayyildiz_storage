@@ -16,7 +16,7 @@ class AyyildizCache {
   late Duration _cacheDuration;
 
   AyyildizCache({Duration? cacheDuration}) {
-    _cacheDuration = cacheDuration ?? const Duration(days: 0x7fffffffffffffff); //0x7fffffffffffffff is int64 max value.
+    _cacheDuration = cacheDuration ?? const Duration(days: 730); //0x7fffffffffffffff is int64 max value.
     cleanCache();
   }
 
